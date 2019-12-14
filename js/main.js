@@ -1,4 +1,4 @@
-var startCulc = document.querySelector('#start'),
+var startCalc = document.querySelector('#start'),
     giveMeAClass = document.querySelector('.budget-value'),
     dayBudget = document.querySelector('.daybudget-value'),
     levelValue = document.querySelector('.level-value'),
@@ -18,7 +18,7 @@ var startCulc = document.querySelector('#start'),
     savings1 = document.querySelector('#savings'),
     chooseSum = document.querySelector('.choose-sum'),
 
-console.log(startCulc);
+console.log(startCalc);
 console.log(giveMeAClass);
 console.log(dayBudget);
 console.log(levelValue);
@@ -50,4 +50,6 @@ for (i = 0; i < optionalExpensesItem.length; i++) {
 
 console.log(savings1);
 console.log(chooseSum);
+
+
 
